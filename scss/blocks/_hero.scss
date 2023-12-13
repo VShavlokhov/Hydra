@@ -1,0 +1,77 @@
+.hero {
+  
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-text {
+  max-width: 495px;
+}
+.hero__title {
+  color: var(--color-text);
+  font-size: 46px;
+  font-weight: 700;
+span{
+    background: var(--text-gradiet) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 46px;
+    font-weight: 700;
+  }
+}
+.hero__desc {
+  max-width: 450px;
+  margin-top: 38px;
+  margin-bottom: 66px;
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+}
+.hero-btn{
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+.hero__button{
+  width: 214px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: var(--button-bg);
+
+  color: var(--button-text);
+  font-size: 12px;
+  font-weight: 700;
+}
+.hero-image {
+  
+}
+.hero-img__mask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 524px;
+  height: 455px;
+  border-radius: 100px 100px 100px 240px;
+  background: rgba(0, 0, 0, 0.13);
+  
+}
+.hero__img {
+  max-width: 490px;
+  height: 426px;
+  border-radius: 100px 100px 100px 240px;
+  overflow: hidden;
+ 
+  
+  
+}
+.hero__avatar {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+   transform: scale(1);
+}

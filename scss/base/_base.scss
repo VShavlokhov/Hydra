@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #302c42;
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    background-image: url(./../../img/hero/Group\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 845px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+
+
+.container{
+    max-width: 1302px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
