@@ -1,0 +1,25 @@
+.services {
+  padding-top: 111px;
+}
+.services-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 105px;
+}
+.services-top__title {
+  color: var(--color-text);
+  font-size: 36px;
+  font-weight: 700;
+}
+.services-top__subtitle {
+  color: var(--color-text);
+  font-size: 36px;
+  font-weight: 300;
+
+}
+.services-top__desc {
+  max-width: 650px;
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+}
