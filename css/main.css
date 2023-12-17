@@ -113,6 +113,10 @@ body::after {
   margin: 0 auto;
 }
 
+.none {
+  display: none !important;
+}
+
 :root {
   --color-text: #fff;
   --text-gradiet: linear-gradient(269deg, #C0B7E8 -3.72%, #8176AF 82.17%);
@@ -538,4 +542,90 @@ body::after {
   color: #343045;
   font-size: 12px;
   font-weight: 700;
+}
+
+.tech {
+  padding-top: 105px;
+  padding-bottom: 300px;
+}
+
+.tech-content {
+  position: relative;
+}
+
+.tech-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 305px;
+  border-radius: 160px;
+  background: #211e2e;
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+  overflow: hidden;
+  position: relative;
+}
+
+.tech-image__bg {
+  position: absolute;
+  object-fit: cover;
+  margin-top: 284.2px;
+  transform: scale(1.1);
+}
+
+.tech-text {
+  z-index: 2;
+}
+
+.tech__title {
+  color: var(--color-text);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.tech__subtitle {
+  color: var(--color-text);
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.button-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(14, 14, 14, 0.32);
+  z-index: 3;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+  margin-bottom: 10px;
+}
+
+.tech__btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: linear-gradient(268deg, #c0b7e8 -0.6%, #8176af 98.31%);
+}
+
+.fa-chevron-down {
+  font-size: 30px;
+  color: rgb(67, 61, 96);
+}
+
+.tech-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand__link {
+  transition: 0.2s;
+}
+.brand__link:hover {
+  opacity: 0.1;
 }/*# sourceMappingURL=main.css.map */
