@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "afterDelay",
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "./css/",
+            "savePathReplacementPairs": null
+        }
+    ]
+}
