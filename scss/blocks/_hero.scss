@@ -48,9 +48,6 @@ span{
   font-size: 12px;
   font-weight: 700;
 }
-.hero-image {
-  
-}
 .hero-img__mask {
   display: flex;
   align-items: center;
@@ -129,10 +126,22 @@ span{
 
 .contact__mail {
   display: flex;
+  align-items: center;
   gap: 23px;
+
+  a{
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 400;
+  }
 }
 .contact__massage {
   color: var(--color-text);
   font-size: 24px;
   font-weight: 700;
+  padding-bottom: 9px;
+}
+
+.contact__mail-wrapper{
+
 }

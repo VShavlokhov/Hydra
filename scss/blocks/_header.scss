@@ -17,7 +17,7 @@
   font-weight: 700;
   position: relative;
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 0%;
     height: 2px;
@@ -25,12 +25,12 @@
     bottom: 0;
     background-color: #fff;
     transform: scaleX(0);
-    transition: 0.3s ;
+    transition: 0.3s;
   }
-  &:hover::before{
+  &:hover::before {
     position: absolute;
     width: 100%;
-    transition: 0.3s ;
+    transition: 0.3s;
     transform: scaleX(1);
   }
 }
@@ -39,6 +39,7 @@
   gap: 38px;
 }
 .button {
+  position: relative;
   width: 154px;
   height: 48px;
   border-radius: 40px;
@@ -47,12 +48,18 @@
   color: var(--color-text);
   font-size: 12px;
   font-weight: 700;
-  &:hover{
-    opacity: 0.2;
-    transition: 0.2s;
+  &:hover {
+    background: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    transition: color 0.10s ease-in, border 0.10s ease-in, background 0.10s ease-in ;
+  }
+  &:active {
+    top: 1px;
   }
 }
 .button-gradient {
+  position: relative;
   width: 155px;
   height: 48px;
   border-radius: 40px;
@@ -61,8 +68,14 @@
   color: var(--button-text);
   font-size: 12px;
   font-weight: 700;
-  &:hover{
-    opacity: 0.1;
-    transition: 0.2s;
+  &:hover {
+    transition: color 0.10s ease-in, border 0.10s ease-in, background 0.10s ease-in;
+    border: 2px solid #fff;
+    background: transparent;
+
+    color: var(--color-text);
+  }
+  &:active {
+    top: 1px;
   }
 }

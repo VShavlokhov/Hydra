@@ -34,12 +34,8 @@
   padding-right: 20px;
   color: var(--color-text);
   border-radius: 40px;
-  border: 2px solid #fff;
-  
+  border: 2px solid var(--color-text);
 }
-
-
-
 
 .form__input-subject {
   width: 1092px;
@@ -50,18 +46,18 @@
 .form__textarea {
   width: 1092px;
   height: 210px;
-  
+
   padding-left: 42px;
   padding-right: 20px;
   padding-top: 27px;
   resize: none;
   overflow: hidden;
   scrollbar-width: none;
-  
+
   margin-bottom: 51px;
   border-radius: 40px;
-  border: 2px solid #FFF;
-  color: #FFF;
+  border: 2px solid #fff;
+  color: var(--color-text);
 }
 
 .opin__button {
