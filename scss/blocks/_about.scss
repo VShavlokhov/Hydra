@@ -17,8 +17,8 @@
   }
 }
 .about-top {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 5fr 6fr;
   margin-bottom: 100px;
 }
 .about-top__tile {
@@ -27,7 +27,6 @@
   font-weight: 700;
 }
 .about-top__suptitle {
- 
   gap: 30px;
   color: var(--color-text);
   font-size: 36px;
@@ -43,13 +42,13 @@
 }
 
 .about-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ display: grid;
+ grid-template-columns: 5fr  6fr;
+ align-items: center;
  
 }
 .about-main__images {
-  max-width: 524px;
+  width: 524px;
   height: 557px;
   margin-right: 107px;
   overflow: hidden;

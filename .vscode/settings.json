@@ -1,12 +1,21 @@
 {
-    "files.autoSave": "afterDelay",
-    "liveSassCompile.settings.formats": [
-
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "./css/",
-            "savePathReplacementPairs": null
+  "files.autoSave": "afterDelay",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "./css/",
+      "savePathReplacementPairs": null
+    }
+  ],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "fontStyle": ""
         }
+      }
     ]
+  }
 }

@@ -1,7 +1,8 @@
-.card-wrapper{
+.card-wrapper {
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr;
-  gap: 10px;
+  grid-template-columns: repeat(4, 3fr);
+  justify-content: center;
+  
 }
 .card {
   display: flex;
@@ -10,13 +11,12 @@
   max-width: 310px;
   height: 511px;
   border-radius: 40px;
-  background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
 }
 
 .avatar {
   display: flex;
   align-items: center;
- 
 }
 .card-avatarbg {
   width: 219px;
@@ -28,7 +28,6 @@
   justify-content: center;
   margin-bottom: 21px;
   margin-top: 23px;
-   
 }
 .card__avatar {
   max-width: 191px;
@@ -47,7 +46,7 @@
   font-weight: 700;
   margin-bottom: 17px;
 }
-.card-line {
+.carline {
   width: 154px;
   height: 5px;
   margin-bottom: 21px;
